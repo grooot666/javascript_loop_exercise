@@ -194,4 +194,36 @@
 //   n = n / 10;
 // }
 // console.log(sum);
-//11
+// //11
+// let n = 123;
+// let reverse = "";
+// while (n > 0) {
+//   reverse += n % 10;
+//   n = n - (n % 10);
+//   n = n / 10;
+// }
+// console.log(reverse);
+
+//                         ARRAY LOOP ASSINGMENT  [FUNCTION]
+// 1
+
+// function sumThreeNumber(n, x, y) {
+//   let sum = 0;
+//   sum = sum + n + x + y;
+//   return sum;
+// }
+// console.log(sumThreeNumber(12, 34, 56));
+
+// 2
+let numbers = [123, 345, 678, 90987, 345, 45, 23244];
+
+function sumArray(array) {
+  let sum = 0;
+
+  for (let i = 0; i < array.length; i++) {
+    sum = sum + array[i];
+  }
+  return sum;
+}
+
+console.log(sumArray(numbers));
