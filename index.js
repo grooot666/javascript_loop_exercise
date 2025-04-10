@@ -215,15 +215,32 @@
 // console.log(sumThreeNumber(12, 34, 56));
 
 // 2
-let numbers = [123, 345, 678, 90987, 345, 45, 23244];
+// let numbers = [123, 345, 678, 90987, 345, 45, 23244];
 
-function sumArray(array) {
-  let sum = 0;
+// function sumArray(array) {
+//   let sum = 0;
 
-  for (let i = 0; i < array.length; i++) {
-    sum = sum + array[i];
-  }
-  return sum;
+//   for (let i = 0; i < array.length; i++) {
+//     sum = sum + array[i];
+//   }
+//   return sum;
+// }
+
+// console.log(sumArray(numbers));
+
+//                ARRAY METHODS
+
+//1
+
+function addToArray(array, number) {
+  array[numbers.length] = number;
+
+  return array;
 }
+let numbers = [1, 2, 4];
+console.log(addToArray(numbers, 5));
 
-console.log(sumArray(numbers));
+//2
+// function greatToArray(array, numbers) {
+
+// }
